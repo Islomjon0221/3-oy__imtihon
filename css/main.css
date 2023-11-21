@@ -16,6 +16,173 @@ ul {
   margin-left: 70px;
 }
 
+.main-carousel {
+  width: 95%;
+}
+.main-carousel img {
+  border-radius: 26px;
+}
+
+.footer-brands {
+  margin-bottom: 20px;
+}
+.footer-brands .foter-brands-contain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-brands .foter-brands-contain a {
+  padding: 27px 40px;
+  border: 1px solid rgb(222, 221, 221);
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.footer-quesson {
+  margin-bottom: 50px;
+}
+.footer-quesson h3 {
+  margin-bottom: 20px;
+}
+.footer-quesson .footer-quesson__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.footer-quesson .footer-quesson__content .footer-quesson-card {
+  border: 2px solid rgb(223, 223, 223);
+  border-radius: 20px;
+  padding: 10px 1px 0px 5px;
+  cursor: pointer;
+  width: 226px;
+  height: 261px;
+}
+.footer-quesson .footer-quesson__content .footer-quesson-card img {
+  background: #FDF5F3;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.footer-quesson .footer-quesson__content .footer-quesson-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.footer-quesson .footer-quesson__content .footer-quesson-card p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #6C7178;
+}
+
+.footer-top {
+  background: url(../../img/img-icon/phones.webp) no-repeat right bottom #e8e8e8;
+}
+.footer-top h3 {
+  color: #222C3A;
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 64px;
+}
+.footer-top p {
+  color: #6C7178;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer-top .footer-top__app-links {
+  padding-bottom: 45px;
+}
+.footer-top .footer-top__app-links img {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.footer-top .footer-top__app-links img:last-child {
+  margin-right: 0;
+}
+
+.footer {
+  background: #1D242F;
+}
+.footer .footer-clases {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 64px;
+  padding-bottom: 48px;
+}
+.footer .footer-clases .footer-logo h3 {
+  color: #fff;
+  margin: 32px 0px 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.footer .footer-clases .footer-logo a {
+  color: #fff;
+  margin: 0px 0px 16px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer .footer-clases .footer-logo h4 {
+  color: #fff;
+  margin: 0px 0px 16px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer .footer-clases .footer-logo h2 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+.footer .footer-clases .footer-logo_links h3 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+}
+.footer .footer-clases .footer-logo_links .footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .footer-clases .footer-logo_links .footer-links a {
+  background: #222C3A;
+  padding: 5px 20px;
+  margin-right: 5px;
+  border-radius: 12px;
+}
+.footer .footer-clases .footer-logo_links .footer-links .error {
+  padding: 5px;
+}
+.footer .footer-clases .footer-links-ul li a {
+  color: #9d9d9d;
+}
+.footer .footer-clases .footer-links-ul li a:hover {
+  color: #FFF;
+}
+.footer .footer-clases .footer-links-ul li:first-child a {
+  color: #FFF;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  background: #222C3A;
+  padding: 24px;
+}
+.footer-bottom .footer-bottom-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-bottom .footer-bottom-links .footer-bottom-links1 h3 {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer-bottom .footer-bottom-links .footer-bottom-links2 a {
+  margin-right: 24px;
+}
+.footer-bottom .footer-bottom-links .footer-bottom-links2 a:last-child {
+  margin-right: 0px;
+}
+
 .header__container {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -209,6 +376,9 @@ ul {
   border-radius: 6px;
 }
 
+.hero {
+  margin-bottom: 40px;
+}
 .hero .hero-links__content {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -227,11 +397,102 @@ ul {
   color: #fff;
 }
 
+.footer-hero {
+  margin-bottom: 20px;
+}
+.footer-hero h3 {
+  margin-top: 20px;
+}
+.footer-hero .footer-hero__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-hero .footer-hero-links__content {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.footer-hero .footer-hero-links__content a {
+  background: #dfdfdf;
+  color: #363636;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+.footer-hero .footer-hero-links__content a:hover {
+  background: #cbcbcb;
+}
+.footer-hero .footer-hero-links__content a:first-child {
+  background: #00013a;
+  color: #fff;
+}
+.footer-hero .footer-hero__cards1 {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-hero .footer-hero__cards1 .cards-laptob {
+  text-align: center;
+  padding: 5px;
+  max-width: 215px;
+  border: 1px solid white;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+.footer-hero .footer-hero__cards1 .cards-laptob:hover {
+  border: 1px solid rgb(202, 202, 202);
+}
+.footer-hero .footer-hero__cards1 .cards-laptob .laptob-description h2 {
+  font-size: 14px;
+  opacity: 1;
+  line-height: 150%;
+  text-align: left;
+  min-height: 38px;
+  margin-top: 12px;
+  color: rgb(129, 128, 128);
+  margin-left: 7px;
+}
+.footer-hero .footer-hero__cards1 .cards-laptob .labtob-count h2 {
+  font-size: 23px;
+  font-weight: 700;
+}
+.footer-hero .footer-hero__cards1 .cards-laptob .labtob-months {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(233, 233, 233, 0.3);
+  height: 50px;
+  border-radius: 10px;
+  padding: 0px 5px 0px 0px;
+}
+.footer-hero .footer-hero__cards1 .cards-laptob .labtob-months h3 {
+  font-size: 14px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+.footer-hero .footer-hero__cards1 .cards-laptob .labtob-months .labtob-months-count {
+  background: #FFF;
+  height: 30px;
+  margin-left: 5px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2px 3px 1px;
+}
+.footer-hero .footer-hero__cards1 .cards-laptob .labtob-months .labtob-months-count h4 {
+  font-size: 14px;
+}
+
 .hero-cards__contain {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
+}
+
+.hero-crad2-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .hero-card1 {
@@ -555,7 +816,6 @@ ul {
 }
 
 .buton-one-item button {
-  width: 165px;
   height: 27px;
   background: white;
   border: 0.5px solid black;
@@ -766,4 +1026,10 @@ ul {
 .button-four-item button:hover {
   background: rgb(121, 117, 117);
   color: rgb(255, 254, 254);
+}
+
+.hero-cards__contain2-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */
