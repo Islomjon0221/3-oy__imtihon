@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <title>MEDIAPARK</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="container sidebar__container">
+            <div class="sidebar__container__phone">
+                <a href="#"><img src="./img/phone-line-icon.svg" width="14" height="14" alt="phone-line-icon"> +998 71 203 33 33</a>
+                <a href="#"><img src="./img/maps-pin-line-icon.svg" width="14" height="14" alt="maps-pin-line-icon">Farg'ona viloyati</a>
+            </div>
+            <div class="sidebar__container__menu">
+                <ul>
+                    <li><a href="#">Biz haqimizda</a></li>
+                    <li><a href="#">Hamkorlik</a></li>
+                    <li><a href="#">Yuridik shaxslar uchun</a></li>
+                    <li><a href="#">Yetkazib berish</a></li>
+                    <li><a href="#">Doʻkonlar</a></li>
+                    <li><a href="#">Biz bilan bogʻlaning!</a></li>
+                </ul>
+                <select name="language" id="language">
+                        <option value="O'zbekcha">O'zbekcha</option>
+                        <option value="Русский">Русский</option>
+                        <option value="Ўзбекча">Ўзбекча</option>
+                    </select>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__logo">
+                <a href="#"><img src="./img/img-icon/svgexport-4.svg" width="155" height="20" alt="MEDIAPARK-icon"></a>
+            </div>
+            <div class="header__search-input">
+                <div class="header_bars">
+                  <a href="#"><img src="./img/img-icon/svgexport-5.svg" width="24" height="24" alt="bar-icon">Katalog</a>
+                </div>
+                <input type="text" placeholder="Mahsulotlarni qidirish"><div class="seach-img">
+                  <div class="search-icon_content"><img src="./img/img-icon/svgexport-6.svg" width="24" height="24" alt="search-icon"></div></div>
+            </div>
+            <nav class="header__nav">
+                <div class="header__box">
+                  <a href="#"><img src="./img/img-icon/svgexport-7.svg" alt="box-icon">Buyurtma holati</a>
+                </div>
+                <div class="header__kilo">
+                  <a href="#"><img src="./img/img-icon/svgexport-8.svg" alt="kilo-icon">Taqqoslash</a>
+                </div>
+                <div class="header__basket">
+                  <a href="#"><img src="./img/img-icon/svgexport-9.svg" alt="basket-icon">Savatcha</a>
+                </div>
+                <div class="header__like">
+                  <a href="#"><img src="./img/img-icon/svgexport-10.svg" alt="kilo-icon">Saralanganlar</a>
+                </div>
+                <div class="header__user">
+                  <a href="#"><img src="./img/img-icon/svgexport-11.svg" alt="kilo-icon">Kirish</a>
+                </div>
+              </nav>
+            </div>
+          </header>
+          <div  class="navigation">
+            <ul>
+              <li><a href="#">Aksiyalar</a></li>
+              <li><a href="#">Smartfonlar</a></li>
+              <li><a href="#">Muzlatgichlar</a></li>
+              <li><a href="#">Apple</a></li>
+              <li><a href="#">Noutbuklar</a></li>
+              <li><a href="#">Kir yuvish mashinalari</a></li>
+              <li><a href="#">Qahva mashinalari</a></li>
+              <li><a href="#">Pishirish panellari</a></li>
+              <li><a href="#">Smart soatlar</a></li>
+              <li><a href="#">Konditsionerlar</a></li>
+              <li><a href="#">Dazmollar</a></li>
+              <li><a href="#">Blenderlar</a></li>
+            </ul>
+          </div>
+          <div class="hero__carousel">
+            <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+              
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="9"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="10"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="11"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="12"></button>
+          </div>
+          
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item  active">
+                <img src="./img/6ba07405-9715-4fac-804e-d17343723e59_WebUZ.webp" alt="Los Angeles" class="d-block" style="width:95%">
+              </div>
+            <div class="carousel-item ">
+              <img src="./img/d0c63906-5371-4a3c-9a9b-996165fce520_RUWEB(2).webp" alt="Chicago" class="d-block" style="width:95%">
+              </div>
+              <div class="carousel-item ">
+                <img src="./img/e4877c42-4cd3-4ca7-8fc5-10a7cf7efde7_808381copy2.webp" alt="Los Angeles" class="d-block" style="width:95%">
+              </div>  
+              <div class="carousel-item ">
+                <img src="./img/be50f10b-4be1-42e9-9848-c4cb214e2104_WebRU(2).webp" alt="Los Angeles" class="d-block" style="width:95%">
+              </div>  
+            <div class="carousel-item ">
+              <img src="./img/05daca88-c3a6-4dac-b5f8-95f12ac685f3_WebUZ.webp" alt="New York" class="d-block" style="width:95%">
+            </div>
+            <div class="carousel-item ">
+                <img src="./img/ecc8f106-7554-4828-b6ad-5cd5a254cacc_SamsungUZ.webp" alt="New York" class="d-block" style="width:95%">
+              </div>
+              <div class="carousel-item ">
+                <img src="./img/7efdaf03-622c-4dcc-917a-0cdc339a599c_808381copy2.webp" alt="New York" class="d-block" style="width:95%">
+              </div>
+              <div class="carousel-item ">
+                <img src="./img/b4fd8749-3455-4112-829e-5c22e6b8541e_BBB082.webp" alt="New York" class="d-block" style="width:95%">
+              </div>
+              <div class="carousel-item ">
+                <img src="./img/c4edb7e8-54ab-4878-8247-e647e6cbf57c_BBB082.webp" alt="New York" class="d-block" style="width:95%">
+              </div>
+              <div class="carousel-item ">
+                <img src="./img/966f6582-e9e2-4249-b116-59a1d1eb11fe_UZ(6).webp" alt="New York" class="d-block" style="width:95%">
+              </div>
+              <div class="carousel-item ">
+                <img src="./img/3fe1a838-ed90-4107-be4d-f2b247eefad4_A3B7B1_.webp" alt="New York" class="d-block" style="width:95%">
+              </div>
+              <div class="carousel-item ">
+                <img src="./img/a57f25f0-3778-4e5f-9166-ad5b5353b56b_webUZ.webp" alt="New York" class="d-block" style="width:95%">
+              </div>
+              <div class="carousel-item ">
+                <img src="./img/a206933f-062a-49b2-af55-108b060aeb8f_UzLamoWEB.webp" alt="New York" class="d-block" style="width:95%">
+              </div>
+          </div>
+          
+          <!-- Left and right controls/icons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+    </div>
+    <div class="kategoriy container">
+      <div class="kategoriy__container"></div>
+      <h3>Ommabop kategoriyalar</h3>
+      <div class="kategoriy__cards-contain">
+        <div class="kategoriy__cards">
+          <div class="kategori__container-img"><img src="./img/img-icon/svgexport-14.svg" alt="comp-img"></div>
+          <a href="#">Barcha noutbuklar</a>
+        </div>
+        <div class="kategoriy__cards">
+          <div class="kategori__container-img"><img src="./img/img-icon/svgexport-15.svg" alt="tv-img"></div>
+          <a href="#">Barcha televizorlar</a>
+        </div>
+        <div class="kategoriy__cards">
+          <div class="kategori__container-img"><img src="./img/img-icon/svgexport-16.svg" alt="pilisos-img"></div>
+          <a href="#">Changyutgichlar</a>
+        </div>
+        <div class="kategoriy__cards">
+          <div class="kategori__container-img"><img src="./img/img-icon/svgexport-17.svg" alt="comp-img"></div>
+          <a href="#">Kir yuvish mashinalari</a>
+        </div>
+        <div class="kategoriy__cards">
+          <div class="kategori__container-img"><img src="./img/img-icon/svgexport-18.svg" alt="comp-img"></div>
+          <a href="#">Muzlatgichlar</a>
+        </div>
+        <div class="kategoriy__cards">
+          <div class="kategori__container-img"><img src="./img/img-icon/svgexport-19.svg" alt="comp-img"></div>
+          <a href="#">Smartfonlar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="container hero__container">
+        <h3>"Artel - Zavod narxida"</h3>
+        <div class="hero-links">
+          <div class="hero-links__content">
+            <a href="#">Televizor</a>
+            <a href="#">Muzlatgich</a>
+            <a href="#">Kir yuvish mashinasi Avtomat</a>
+            <a href="#">Changyutgich</a>
+            <a href="#">Plita</a>
+          </div>
+        </div>
+        <div class="hero-cards__contain">
+<div class="hero-card1">
+                <div class="button-item">
+                    <button>Zavod narxida</button>
+                </div>
+                <div class="hero-img">
+                    <img src="./img/img-icon/bbbdd3cf-d17f-4362-b746-3fca6f0ab97a_mediaparkproduct1300x1300.webp" alt="telivizor">
+                </div>
+                <div class="hero-text1">
+                    <h3>161 000 so'm</h3>
+                </div>
+                <div class="hero-text2">
+                    <h2>2 812 000 so'm</h2>
+                </div>
+                <div class="hero-buton1">
+                    <button>
+                        323 379 so'mdan/oyiga
+                    </button>
+                </div>
+                <div class="hero-text3">
+                    <h2>Samsung 32N4000UZ<br> televizori</h2>
+                </div>
+                <div class="star-icon__contain">
+                  <div class="star-icon">
+                      <img src="./img/img-icon/strars.svg" alt="star-icon">
+                  </div>
+                  <div class="star-icon">
+                      <img src="./img/img-icon/strars.svg" alt="star-icon">
+                  </div>
+                  <div class="star-icon">
+                      <img src="./img/img-icon/strars.svg" alt="star-icon">
+                  </div>
+                  <div class="star-icon">
+                      <img src="./img/img-icon/strars.svg" alt="star-icon">
+                  </div>
+                  <div class="star-icon">
+                      <img src="./img/img-icon/strars.svg" alt="star-icon">
+                  </div>
+                  <div class="star-icon">
+                      <img src="./img/img-icon/strars.svg" alt="star-icon">
+                  </div>
+                  <div class="hero__strar-ball">
+                      <h2>24</h2>
+                  </div>
+              </div>
+                <div class="card1-butonns">
+                    <div class="hero-buton2">
+                        <button>
+                            <img src="./img/img-icon/svgexport-21.svg" alt="basket-icon">
+                        </button>
+                    </div>
+                    <div class="hero-buton3">
+                        <button>
+                            <img src="./img/img-icon/svgexport-22.svg" alt="savat">
+                        </button>
+                    </div>
+                    <div class="hero-buton4">
+                        <button>
+                            <img src="./img/img-icon/svgexport-23.svg" alt="savat">
+                        </button>
+                    </div>
+                </div>
+</div>
+<div class="hero-card1">
+  <div class="button-item">
+      <button>Zavod narxida</button>
+  </div>
+  <div class="hero-img">
+      <img src="./img/img-icon/ea875279-1cc4-4678-b4e7-e6fe4e141a13_mediaparkproduct1300x1300.webp" alt="telivizor">
+  </div>
+  <div class="hero-text1">
+      <h3>2 866 000 so'm</h3>
+  </div>
+  <div class="hero-text2">
+      <h2>2 573 000 so'm</h2>
+  </div>
+  <div class="hero-buton1">
+      <button>
+        295 894 so'mdan/oyiga
+      </button>
+  </div>
+  <div class="hero-text3">
+      <h2>Shivaki US43H3303<br> televizori</h2>
+  </div>
+  <div class="star-icon__contain">
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="hero__strar-ball">
+          <h2>24</h2>
+      </div>
+  </div>
+  <div class="card1-butonns">
+      <div class="hero-buton2">
+          <button>
+              <img src="./img/img-icon/svgexport-21.svg" alt="basket-icon">
+          </button>
+      </div>
+      <div class="hero-buton3">
+          <button>
+              <img src="./img/img-icon/svgexport-22.svg" alt="savat">
+          </button>
+      </div>
+      <div class="hero-buton4">
+          <button>
+              <img src="./img/img-icon/svgexport-23.svg" alt="savat">
+          </button>
+      </div>
+  </div>
+</div>
+<div class="hero-card1">
+          <div class="button-item">
+              <button>Zavod narxida</button>
+          </div>
+          <div class="hero-img">
+              <img src="./img/img-icon/f170bcd8-32a8-418d-a068-00c5ea7d656e_mediaparkproduct1300x1300.webp" alt="telivizor">
+          </div>
+          <div class="hero-text1">
+              <h3>3 411 000 so'm</h3>
+          </div>
+          <div class="hero-text2">
+              <h2>3 063 000 so'm</h2>
+          </div>
+          <div class="hero-buton1">
+              <button>
+                352 245 so'mdan/oyiga
+              </button>
+          </div>
+          <div class="hero-text3">
+              <h2>Shivaki US43H3403 Smart<br> televizori</h2>
+          </div>
+          <div class="star-icon__contain">
+              <div class="star-icon">
+                  <img src="./img/img-icon/strars.svg" alt="star-icon">
+              </div>
+              <div class="star-icon">
+                  <img src="./img/img-icon/strars.svg" alt="star-icon">
+              </div>
+              <div class="star-icon">
+                  <img src="./img/img-icon/strars.svg" alt="star-icon">
+              </div>
+              <div class="star-icon">
+                  <img src="./img/img-icon/strars.svg" alt="star-icon">
+              </div>
+              <div class="star-icon">
+                  <img src="./img/img-icon/strars.svg" alt="star-icon">
+              </div>
+              <div class="star-icon">
+                  <img src="./img/img-icon/strars.svg" alt="star-icon">
+              </div>
+              <div class="hero__strar-ball">
+                  <h2>24</h2>
+              </div>
+          </div>
+          <div class="card1-butonns">
+              <div class="hero-buton2">
+                  <button>
+                      <img src="./img/img-icon/svgexport-21.svg" alt="basket-icon">
+                  </button>
+              </div>
+              <div class="hero-buton3">
+                  <button>
+                      <img src="./img/img-icon/svgexport-22.svg" alt="savat">
+                  </button>
+              </div>
+              <div class="hero-buton4">
+                  <button>
+                      <img src="./img/img-icon/svgexport-23.svg" alt="savat">
+                  </button>
+              </div>
+          </div>
+</div>
+<div class="hero-card1">
+  <div class="button-item">
+      <button>Zavod narxida</button>
+  </div>
+  <div class="hero-img">
+      <img src="./img/img-icon/dc4b4f46-335f-479f-811c-f51eef9c52ae_mediaparkproduct1300x1300.webp" alt="telivizor">
+  </div>
+  <div class="hero-text1">
+      <h3>1 538 000 so'm</h3>
+  </div>
+  <div class="hero-text2">
+      <h2>1 381 000 so'm</h2>
+  </div>
+  <div class="hero-buton1">
+      <button>
+        158 814 so'mdan/oyiga
+      </button>
+  </div>
+  <div class="hero-text3">
+      <h2>Televizor Artel UA32H4101</h2>
+  </div>
+  <div class="star-icon__contain">
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="hero__strar-ball">
+          <h2>24</h2>
+      </div>
+  </div>
+  <div class="card1-butonns">
+      <div class="hero-buton2">
+          <button>
+              <img src="./img/img-icon/svgexport-21.svg" alt="basket-icon">
+          </button>
+      </div>
+      <div class="hero-buton3">
+          <button>
+              <img src="./img/img-icon/svgexport-22.svg" alt="savat">
+          </button>
+      </div>
+      <div class="hero-buton4">
+          <button>
+              <img src="./img/img-icon/svgexport-23.svg" alt="savat">
+          </button>
+      </div>
+  </div>
+</div>
+<div class="hero-card1">
+  <div class="button-item">
+      <button>Zavod narxida</button>
+  </div>
+  <div class="hero-img">
+      <img src="./img/img-icon/1660233f-9cbc-45b6-b59d-96359600db10_mediaparkproduct1300x1300.webp" alt="telivizor">
+  </div>
+  <div class="hero-text1">
+      <h3>3 243 000 so'm</h3>
+  </div>
+  <div class="hero-text2">
+      <h2>2 912 000 so'm</h2>
+  </div>
+  <div class="hero-buton1">
+      <button>
+        334 879 so'mdan/oyiga
+      </button>
+  </div>
+  <div class="hero-text3">
+      <h2>Televizori Artel<br> A43KF5500 Smart TV</h2>
+  </div>
+  <div class="star-icon__contain">
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="hero__strar-ball">
+          <h2>24</h2>
+      </div>
+  </div>
+  <div class="card1-butonns">
+      <div class="hero-buton2">
+          <button>
+              <img src="./img/img-icon/svgexport-21.svg" alt="basket-icon">
+          </button>
+      </div>
+      <div class="hero-buton3">
+          <button>
+              <img src="./img/img-icon/svgexport-22.svg" alt="savat">
+          </button>
+      </div>
+      <div class="hero-buton4">
+          <button>
+              <img src="./img/img-icon/svgexport-23.svg" alt="savat">
+          </button>
+      </div>
+  </div>
+</div>
+<div class="hero-card1">
+  <div class="button-item">
+      <button>Zavod narxida</button>
+  </div>
+  <div class="hero-img">
+      <img src="./img/img-icon/c13bad42-39d4-4be2-b0cb-78c3ef46a496_mediaparkproduct1300x1300.webp" alt="telivizor">
+  </div>
+  <div class="hero-text1">
+      <h3>4 866 000 so'm</h3>
+  </div>
+  <div class="hero-text2">
+      <h2>4 331 000 so'm</h2>
+  </div>
+  <div class="hero-buton1">
+      <button>
+        498 065 so'mdan/oyiga
+      </button>
+  </div>
+  <div class="hero-text3">
+      <h2>Televizor Samsung<br> UE43T5300AUCCE</h2>
+  </div>
+  <div class="star-icon__contain">
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="star-icon">
+          <img src="./img/img-icon/strars.svg" alt="star-icon">
+      </div>
+      <div class="hero__strar-ball">
+          <h2>24</h2>
+      </div>
+  </div>
+  <div class="card1-butonns">
+      <div class="hero-buton2">
+          <button>
+              <img src="./img/img-icon/svgexport-21.svg" alt="basket-icon">
+          </button>
+      </div>
+      <div class="hero-buton3">
+          <button>
+              <img src="./img/img-icon/svgexport-22.svg" alt="savat">
+          </button>
+      </div>
+      <div class="hero-buton4">
+          <button>
+              <img src="./img/img-icon/svgexport-23.svg" alt="savat">
+          </button>
+      </div>
+  </div>
+</div>
+      </div>
+      <div class="hero-cards__contain1">
+        <h2>Yangiliklar</h2>
+        <div class="hero-card2">
+          <div class="main-two">
+              <div class="button-item">
+                  <button>Yangi</button>
+              </div>
+              <div class="imagess">
+                  <img src="./img/img-icon/termiz.webp" width="190" height="190" alt="termiz-img">
+              </div>
+              <div class="text-one-item">
+                  <h3>3 161 000</h3>
+              </div>
+              <div class="text-two-item">
+                  <h2>2 812 000 cум</h2>
+              </div>
+              <div class="buton-one-item">
+                  <button>
+                      от 323 379 сум/мес
+                  </button>
+              </div>
+              <div class="text-three-item">
+                  <h2>Телевизор Samsung <br> 32N4000UZ</h2>
+              </div>
+              <div class="star-icon__contain">
+                <div class="star-icon">
+                    <img src="./img/img-icon/strars.svg" alt="star-icon">
+                </div>
+                <div class="star-icon">
+                    <img src="./img/img-icon/strars.svg" alt="star-icon">
+                </div>
+                <div class="star-icon">
+                    <img src="./img/img-icon/strars.svg" alt="star-icon">
+                </div>
+                <div class="star-icon">
+                    <img src="./img/img-icon/strars.svg" alt="star-icon">
+                </div>
+                <div class="star-icon">
+                    <img src="./img/img-icon/strars.svg" alt="star-icon">
+                </div>
+                <div class="star-icon">
+                    <img src="./img/img-icon/strars.svg" alt="star-icon">
+                </div>
+                <div class="hero__strar-ball">
+                    <h2>24</h2>
+                </div>
+            </div>
+              <div class="buttonsss">
+                  <div class="butons-two-item">
+                      <button>
+                          <img src="./img/img-icon/svgexport-21.svg" alt="savat">
+                      </button>
+                  </div>
+                  <div class="butons-three-item">
+                      <button>
+                          <img src="./img/img-icon/svgexport-22.svg" alt="savat">
+                      </button>
+                  </div>
+                  <div class="butons-four-item">
+                      <button>
+                          <img src="./img/img-icon/svgexport-23.svg" alt="savat">
+                      </button>
+                  </div>
+              </div>
+
+      </div>
+    </div>
+</body>
+</html>
